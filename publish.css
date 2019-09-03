@@ -1,0 +1,86 @@
+.container{
+	display: flex;
+	background-size: 100%;
+	background-size:cover;
+	width: 100%;
+	flex-direction: column;
+	padding: 0;
+	background-color: lightgrey;
+}
+
+.nav{
+	background-color: blue;
+	font-size: 15px;
+    font-family:sans-serif;
+    
+}
+
+.nav__links{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav__links a{
+	color: white;
+	font-size: 20px;
+	margin: 0 40px 0 40px;
+	text-decoration: none;
+}
+
+.container1{
+	background-color: lightgrey;
+    height: 100vh;
+    padding: 20px;
+  }
+
+input[type=text],[type=email]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: ;
+}  
+
+textarea{
+	width: 80%;
+	height: 20vh;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: ;  
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn1{
+    background-color: blue;
+    margin-top: 5px;
+    
+}
+
+.btn2{
+    background-color: green;
+    margin-left:10px;
+    margin-top: 5px;
+}
+
+.btn3{
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+

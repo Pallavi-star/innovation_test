@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+  
+.col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+input[type=text],[type=email] ,[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #C7C6C1;
+}
+
+input[type="radio"],[type="checkbox"]{
+    padding: 12px;
+    border: 1px solid #45a049; 
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: ;  
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+a{
+  height: 90px;
+  width:350px;
+  padding-top:20px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.btn1{
+    background-color: blue;
+    height: 40px;
+}
+
+.btn2{
+    background-color: green;
+    margin-left:10px;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+/*.row a{ 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}*/
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+   .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
